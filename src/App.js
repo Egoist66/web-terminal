@@ -4,8 +4,11 @@ import {Route, Routes} from "react-router-dom";
 const App = () => {
   return (
     <div className="app-wrapper">
-      
-      <h1>Terminal App</h1>
+
+        <div>
+            <h1 style={{textAlign: 'center'}}>Terminal App press Shift + ~ </h1>
+
+        </div>
       <Routes>
           <Route path={'/terminal-shell'} element={<Terminal hidden={false} />}/>
       </Routes>
