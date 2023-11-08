@@ -1,0 +1,16 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}

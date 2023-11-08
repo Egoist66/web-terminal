@@ -1,0 +1,33 @@
+[
+  {
+    "command": "terminal",
+    "description": "Inits terminal shell"
+  },
+ 
+  {
+    "command": "exit",
+    "description": "Aborts terminal process"
+  },
+  {
+    "command": "get-time",
+    "description": "Returns current date time"
+  },
+  {
+    "command": "terminal --help",
+    "description": "give full info"
+  },
+  {
+    "command": "env --show",
+    "description": "Info about environment"
+  },
+  {
+    "command": "node",
+    "description": "Activates JS execution"
+  },
+  {
+    "command": "node --off",
+    "description": "Deactivates JS execution"
+  }
+ 
+
+]

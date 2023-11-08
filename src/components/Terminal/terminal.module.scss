@@ -1,0 +1,37 @@
+.terminalContainer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 33;
+}
+
+.terminal {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  width: inherit;
+  height: 280px;
+  letter-spacing: 1px;
+  overflow: auto;
+  resize: none;
+  outline: none;
+  position: relative;
+  background-color: #021523;
+}
+
+.terminalStatus {
+  background-color: #021523;
+  color: white;
+  padding: 10px;
+  min-width: 300px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.terminalOutput {
+  height: 160px;
+  overflow: auto;
+}
